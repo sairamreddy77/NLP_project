@@ -1,0 +1,72 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #61dafb;
+}
+
+/* App.css */
+
+/* Set the body background color */
+body {
+  background-color: #800080; /* Purple */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #4b0082; /* Dark purple */
+  border-bottom: 2px solid #800080; /* Border to match the body background */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #dda0dd !important; /* Light purple on hover */
+}
+
+/* Customize the typing effect text */
+.typing-effect {
+  font-size: 2.5rem;
+  color: #dda0dd; /* Light purple */
+  margin-top: 20px;
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 20px;
+}
